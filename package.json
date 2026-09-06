@@ -1,0 +1,14 @@
+{
+  "name": "uloop-mcp",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Zero-dependency MCP server for Unity CLI Loop v3. Auto-generates MCP tools from the live Unity tool list ('uloop list') and executes them through the native uloop dispatcher. Includes a loopback HTTP bridge (bridge.mjs) so sandboxed agents can reach Unity.",
+  "type": "module",
+  "bin": {
+    "uloop-mcp": "server.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
